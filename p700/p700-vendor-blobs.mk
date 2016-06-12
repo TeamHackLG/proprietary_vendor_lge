@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
+    vendor/lge/p700/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/lge/p700/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/p700/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/p700/proprietary/bin/qmuxd:system/bin/qmuxd \
