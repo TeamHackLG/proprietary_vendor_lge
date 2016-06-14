@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,14 +27,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27a-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/lge/msm7x27a-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-    vendor/lge/msm7x27a-common/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27a-common/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmorpho_panorama_wa_viewer.so:system/lib/libmorpho_panorama_wa_viewer.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
@@ -66,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-    vendor/lge/msm7x27a-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/lge/msm7x27a-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
