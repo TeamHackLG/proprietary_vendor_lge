@@ -17,13 +17,18 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27a-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/msm7x27a-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/lge/msm7x27a-common/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/lge/msm7x27a-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/msm7x27a-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/msm7x27a-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/lge/msm7x27a-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libhwrpc.so:system/lib/libhwrpc.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
@@ -46,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27a-common/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libmorpho_panorama_wa_viewer.so:system/lib/libmorpho_panorama_wa_viewer.so \
     vendor/lge/msm7x27a-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
@@ -67,8 +73,26 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libping_mdm.so:system/lib/libping_mdm.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libqueue.so:system/lib/libqueue.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/msm7x27a-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libvoem_if.so:system/lib/libvoem_if.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libwms.so:system/lib/libwms.so \
+    vendor/lge/msm7x27a-common/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/lge/msm7x27a-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/msm7x27a-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/msm7x27a-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
