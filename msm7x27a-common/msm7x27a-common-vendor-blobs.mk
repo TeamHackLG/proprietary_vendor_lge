@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27a-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/lge/msm7x27a-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/msm7x27a-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/msm7x27a-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/msm7x27a-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
